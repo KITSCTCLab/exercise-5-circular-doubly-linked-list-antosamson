@@ -79,7 +79,7 @@ class DoublyCircularLinkedList:
         # Write code here
         index=front
         while(index!=None):
-            return index.data
+            return index.next
             index=index.next
 
 # Do not change the following code
